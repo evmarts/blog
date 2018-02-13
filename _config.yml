@@ -10,5 +10,8 @@ description:         'Student at University of British Columbia, Vancouver, BC.'
 baseurl:             '/blog/'
 paginate:            5
 
+include:
+  - "_img"
+
 # Custom vars
 version:             1.0.0
