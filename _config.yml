@@ -6,7 +6,7 @@ permalink:           pretty
 # Setup
 title:               Evan James Martin
 tagline:             'Computer Science & Statistics'
-description:         'Student at University of British Columbia, Vancouver, BC.'
+description:         ''
 baseurl:             '/blog/'
 paginate:            5
 
