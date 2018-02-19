@@ -13,6 +13,10 @@ In a [previous project](https://github.com/evmarts/meme-cropper), images of meme
 
 <img src="../_img/fig1.jpg" width="256px" alt="">
 
+
+![image-title-here](/blog/_img/fig1.jpg){:class="img-responsive"}
+
+
 We may want to convert the text component into a string so that we can reuse, modify or analyze it. 
 
 ## Getting Started
