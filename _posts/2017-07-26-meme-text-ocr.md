@@ -11,9 +11,6 @@ This project is also the second stage of [another project.](https://github.com/e
 
 In a [previous project](https://github.com/evmarts/meme-cropper), images of memes were partitioned into a text component and an image component: 
 
-<img src="../_img/fig1.jpg" width="256px" alt="">
-
-
 ![image-title-here](/blog/_img/fig1.jpg){:class="img-responsive"}
 
 
@@ -45,17 +42,19 @@ Run the script:
 
 Suppose we have the following meme:
 
-<img src="../_img/sample_meme.jpg" width="200px" alt="">
+
+![image-title-here](/blog/_img/sample_meme.jpg){:class="img-responsive"}
 
 Assume we have [some way](https://github.com/evmarts/meme-cropper) of partition the meme into two components,
 
 an image component,
 
-<img src="../_img/sample_meme_image.jpg" width="200px" alt=""> 
+![image-title-here](/blog/_img/sample_meme_image.jpg){:class="img-responsive"}
 
 and the text component, say *text.jpg*,
 
-<img src="../_img/fig2.jpg" width="256px" alt=""> 
+
+![image-title-here](/blog/_img/fig2.jpg){:class="img-responsive"}
 
 After placing the image of the text in the ```in/``` directory, we can run the script:
 
