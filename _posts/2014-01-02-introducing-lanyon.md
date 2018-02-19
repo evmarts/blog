@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Introducing Lanyon
+title: Overlaying Images with Motivational Quotes
 ---
-
-# Overlays
 
 This project's goal is to automate the process of overlaying text onto images. Images to be overlayed with text are to be stored in the ```/in/bkg``` directory. The lines of text are to be stored in a text file ```quotes.txt```.
 
@@ -46,7 +44,7 @@ Python
 
 Consider the following raw images located in the ```in/bkg``` directory: 
 
-<img src="./figures/fig5.jpg" width="200x" alt=""> <img src="./figures/fig3.jpg" width="200x" alt=""> <img src="./figures/fig4.jpg" width="200x" alt=""> 
+![image-title-here](/blog/_img/figs/overlayer/fig1.jpg){:class="img-responsive"}
 
 and consider the following text file located in the ```/in``` directory:
 
@@ -77,7 +75,7 @@ Output image saved as: out/_Third capt.png
 
 The following images are then stored in the ```/out``` directory:
 
- <img src="./figures/fig5_capped.png" width="220x" alt="">  <img src="./figures/fig3_capped.png" width="220x" alt=""> <img src="./figures/fig4_capped.png" width="220x" alt="">
+![image-title-here](/blog/_img/figs/overlayer/fig2.jpg){:class="img-responsive"}
  
 **note**: We chose to include the trademarks in these images.   An image file, ```logo.png```, in the ```/utils``` directory specifies the logo, and the trademark text (the text below the logo) is specified in the ```overlayer.py``` script.
 
@@ -113,11 +111,7 @@ Output image saved as: out/2_Third capt.png
 
 The following images are then stored in the ```/out``` directory:
  
-<img src="./figures/fig12_capped.png" width="220x" alt=""> <img src="./figures/fig8_capped.png" width="220x" alt=""> <img src="./figures/fig10_capped.png" width="220x" alt="">
-
-<img src="./figures/fig6_capped.png" width="220x" alt=""> <img src="./figures/fig13_capped.png" width="220x" alt=""> <img src="./figures/fig11_capped.png" width="220x" alt="">
- 
-<img src="./figures/fig7_capped.png" width="220x" alt=""> <img src="./figures/fig9_capped.png" width="220x" alt=""> <img src="./figures/fig14_capped.png" width="220x" alt="">
+![image-title-here](/blog/_img/figs/overlayer/fig3.jpg){:class="img-responsive"}
 
 ## Authors
 
