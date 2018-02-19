@@ -44,7 +44,7 @@ Python
 
 Consider the following raw images located in the ```in/bkg``` directory: 
 
-![image-title-here](/blog/_img/figs/overlayer/fig1.jpg){:class="img-responsive"}
+![image-title-here](/blog/_img/figs/overlayer/fig1.png){:class="img-responsive"}
 
 and consider the following text file located in the ```/in``` directory:
 
@@ -75,7 +75,7 @@ Output image saved as: out/_Third capt.png
 
 The following images are then stored in the ```/out``` directory:
 
-![image-title-here](/blog/_img/figs/overlayer/fig2.jpg){:class="img-responsive"}
+![image-title-here](/blog/_img/figs/overlayer/fig2.png){:class="img-responsive"}
  
 **note**: We chose to include the trademarks in these images.   An image file, ```logo.png```, in the ```/utils``` directory specifies the logo, and the trademark text (the text below the logo) is specified in the ```overlayer.py``` script.
 
@@ -111,7 +111,7 @@ Output image saved as: out/2_Third capt.png
 
 The following images are then stored in the ```/out``` directory:
  
-![image-title-here](/blog/_img/figs/overlayer/fig3.jpg){:class="img-responsive"}
+![image-title-here](/blog/_img/figs/overlayer/fig3.png){:class="img-responsive"}
 
 ## Authors
 
