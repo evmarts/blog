@@ -7,7 +7,7 @@ Fourth-year student in the Computer Science and Statistics program at UBC, Vanco
 
 Interests in machine learning, statistics and social media marketing. 
 
-
+[Projects](https://github.com/evmarts)
 
 
 
