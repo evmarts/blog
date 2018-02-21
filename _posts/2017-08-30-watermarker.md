@@ -59,5 +59,3 @@ Watermark added to meme1.jpg
 ## Authors
 
 Evan Martin
-
-v
