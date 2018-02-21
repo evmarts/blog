@@ -34,9 +34,7 @@ Run the script:
 
 Suppose we have the following images we would like to watermark with our usersname, *@userhandle*:
 
-<img src="../blog/_img/figs/watermarker/meme0_clean.jpg" alt="fig1" height="42" width="42">
-
-![image-title-here](/blog/_img/figs/watermarker/meme1_clean.jpg){:class="img-responsive"}
+<img src="../blog/_img/figs/watermarker/meme0_clean.jpg" alt="fig1" height="168" width="168"><img src="../blog/_img/figs/watermarker/meme1_clean.jpg" alt="fig1" height="168" width="168">
 
 After placing the images of the text in the ```in/``` directory, we can run the script:
 
@@ -55,7 +53,7 @@ Watermark added to meme0.jpg
 Watermark added to meme1.jpg
 ~~~
 
-![image-title-here](/blog/_img/figs/watermarker/meme0_marked.jpg){:class="img-responsive"}![image-title-here](/blog/_img/figs/watermarker/meme1_marked.jpg){:class="img-responsive"}
+<img src="../blog/_img/figs/watermarker/meme0_marked.jpg" alt="fig1" height="168" width="168"><img src="../blog/_img/figs/watermarker/meme1_marked.jpg" alt="fig1" height="168" width="168">
 
 
 ## Authors
