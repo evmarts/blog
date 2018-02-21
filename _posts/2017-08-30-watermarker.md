@@ -34,7 +34,7 @@ Run the script:
 
 Suppose we have the following images we would like to watermark with our usersname, *@userhandle*:
 
-<img src="../blog/_img/figs/watermarker/meme0_clean.jpg" alt="fig1" height="168" width="168" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;" align="middle">><img src="../blog/_img/figs/watermarker/meme1_clean.jpg" alt="fig1" height="168" width="168" align="middle">>
+<img src="../blog/_img/figs/watermarker/meme0_clean.jpg" alt="fig1" height="168" width="168" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;" align="middle"><img src="../blog/_img/figs/watermarker/meme1_clean.jpg" alt="fig1" height="168" width="168" align="middle">
 
 
 After placing the images of the text in the ```in/``` directory, we can run the script:
