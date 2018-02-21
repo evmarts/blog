@@ -34,7 +34,7 @@ Run the script:
 
 Suppose we have the following images we would like to watermark with our usersname, *@userhandle*:
 
-<img src="../blog/_img/figs/watermarker/fig1.png" alt="fig1" height="336" width="336" align = "middle">
+<img src="../blog/_img/figs/watermarker/fig1.png" alt="fig1" height="336" width="672" align = "middle">
 
 After placing the images of the text in the ```in/``` directory, we can run the script:
 
@@ -53,7 +53,7 @@ Watermark added to meme0.jpg
 Watermark added to meme1.jpg
 ~~~
 
-<img src="../blog/_img/figs/watermarker/fig2.png" alt="fig1" height="168" width="168" align = "middle"> 
+<img src="../blog/_img/figs/watermarker/fig2.png" alt="fig1" height="336" width="672" align = "middle"> 
 
 
 
