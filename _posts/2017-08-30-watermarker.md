@@ -34,7 +34,9 @@ Run the script:
 
 Suppose we have the following images we would like to watermark with our usersname, *@userhandle*:
 
-![image-title-here](/blog/_img/figs/watermarker/meme0_clean.jpg){:class="img-responsive"}![image-title-here](/blog/_img/figs/watermarker/meme1_clean.jpg){:class="img-responsive"}
+![image-title-here](/blog/_img/figs/watermarker/meme0_clean.jpg){:class="img-responsive"}
+
+![image-title-here](/blog/_img/figs/watermarker/meme1_clean.jpg){:class="img-responsive"}
 
 After placing the images of the text in the ```in/``` directory, we can run the script:
 
