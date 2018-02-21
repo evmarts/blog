@@ -34,7 +34,7 @@ Run the script:
 
 Suppose we have the following images we would like to watermark with our usersname, *@userhandle*:
 
-<img src="../blog/_img/figs/watermarker/meme0_clean.jpg" alt="fig1">
+<img src="../blog/_img/figs/watermarker/meme0_clean.jpg" alt="fig1" height="42" width="42">
 
 ![image-title-here](/blog/_img/figs/watermarker/meme1_clean.jpg){:class="img-responsive"}
 
