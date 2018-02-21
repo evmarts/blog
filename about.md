@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-![image-title-here](/blog/_img/profile/lake.jpg){:class="img-responsive"}
+![image-title-here](/blog/_img/profile/lake.jpg){:class="img-responsive" width ="200"}
 
 Fourth-year student in the Computer Science and Statistics program at UBC, Vancouver. 
 
