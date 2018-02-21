@@ -54,7 +54,7 @@ Watermark added to meme0.jpg
 Watermark added to meme1.jpg
 ~~~
 
-<img src="../blog/_img/figs/watermarker/meme0_marked.jpg" alt="fig1" height="168" width="168"style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"> 
+<img src="../blog/_img/figs/watermarker/meme0_marked.jpg" alt="fig1" height="168" width="168" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"> 
 
 <img src="../blog/_img/figs/watermarker/meme1_marked.jpg" alt="fig1" height="168" width="168">
 
