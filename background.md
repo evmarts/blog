@@ -3,9 +3,9 @@ layout: page
 title: Background
 ---
 
-### Statistics Background
+## Statistics Background
 
-#### Sample Surveys (STAT 344)
+### Sample Surveys (STAT 344)
 - Planning and practice of sample surveys 
 - Unequal probability sampling
 - Systematic, multistage and stratified sampling 
@@ -16,7 +16,7 @@ title: Background
 
 Programming Language: R
 
-#### Statistical Inference (STAT 305)
+### Statistical Inference (STAT 305)
 - Moment generating functions
 - Sampling distribution theory
 - Large sample theory and methods of estimation
@@ -32,7 +32,7 @@ Programming Language: R
 
 Programming Language: R
 
-#### Finding Relationships in Data (STAT 306)
+### Finding Relationships in Data (STAT 306)
 - Modeling a response variable as a function of several explanatory variables
 - Multiple regression for a continuous response 
 - Logistic regression for a binary response
@@ -43,7 +43,7 @@ Programming Language: R
 
 Programming Language: R
 
-#### Time Series and Forecasting (STAT 443)
+### Time Series and Forecasting (STAT 443)
 - Trend and seasonality 
 - Autocorrelation
 - Stationarity
@@ -57,11 +57,11 @@ Textbook: Chatfield. The Analysis of Time Series, An Introduction
 
 Programming Language: R
 
-### Math Background
+## Math Background
 
-#### Calculus I, II, III
+### Calculus I, II, III
 
-#### Stochastic Processes (MATH 303)
+### Stochastic Processes (MATH 303)
 - Discrete-time Markov chains
 - Poisson processes
 - Continuous time Markov chains
@@ -69,7 +69,7 @@ Programming Language: R
 
 Textbook: Ross. Introduction to Probability Models.
 
-#### Applied Linear Algebra (MATH 307)
+### Applied Linear Algebra (MATH 307)
 
 - Solving linear equations
 - Interpolation 
@@ -96,7 +96,7 @@ Textbook: Strang. Linear Algebra and Its Applications
 
 Programming Language: MATLAB
 
-#### Numerical Computation for Algebraic Problems (CPSC 302)
+### Numerical Computation for Algebraic Problems (CPSC 302)
 
 - Analysis of round-off errors
 - Numerical techniques for basic mathematical processes
@@ -130,7 +130,7 @@ Textbook: Ascher, Greif. A First Course in Numerical Methods
 
 Programming Language: MATLAB
 
-#### Numerical Approximation and Discretization (CPSC 303) TODO
+### Numerical Approximation and Discretization (CPSC 303) TODO
 
 - Analyis of round errors
 - Numerical techniques for basic mathematical processes involving discretization, and their analysis. 
@@ -165,9 +165,9 @@ Textbook: Ascher, Greif. A First Course in Numerical Methods
 
 Programming Language: MATLAB
 
-### Computer Science Background
+## Computer Science Background
 
-#### Intermediate Algorithm Design and Analysis (CPSC 320)
+### Intermediate Algorithm Design and Analysis (CPSC 320)
 - Asymptotic analysis
 - Divide and conquer algorithms
 - Graphs
@@ -192,7 +192,7 @@ Programming Language: MATLAB
 
 Textbook: Kleinberg, Tardos. Algorithm Design
 
-#### Software Engingeering (CPSC 310)
+### Software Engingeering (CPSC 310)
 - REST and Async programming
 - Software specifications
 - Agile development
@@ -207,7 +207,7 @@ Textbook: Kleinberg, Tardos. Algorithm Design
 
 Programming Language: Typescript 
  
-#### Relational Databases (CPSC 304)
+### Relational Databases (CPSC 304)
 - Overview of database systems 
 - Logical database design and normalization
 - Relational algebra
@@ -223,7 +223,7 @@ Textbook: Ramakrishnan, Gehrke. Database Management Systems
 
 Programming Language: SQL, Java
 
-#### Internet Computing (CPSC 317) 
+### Internet Computing (CPSC 317) 
 - Basic communication protocols
 	- Application layer: DHCP, DNS, FTP, BGP, SMTP, POP3
 	- Transport layer: TCP, UDP
@@ -251,7 +251,7 @@ Textbook: Kurose, Ross. Computer Networking, A Top Down Approach
 
 Programming Language: Java, C
 
-#### Computer Hardware and Operating Systems (CPSC 313)
+### Computer Hardware and Operating Systems (CPSC 313)
 - Instruction set architecture and a sequential CPU
 - A pipelined CPU
 - The memory hierarchy
@@ -262,7 +262,7 @@ Programming Language: Bryany, O'Hallaron. Computer Systems, A Programmer's Persp
 
 Textbook: C
 
-#### Artificial Intelligence (CPSC 322)
+### Artificial Intelligence (CPSC 322)
 - Reasoning and representation
 - Uninformed and heuristic search methods
 - Constraint satisfaction problems 
@@ -275,7 +275,7 @@ Textbook: Poole, Mackworth. Artificial Intelligence, Foundations of Computationa
 
 Programming Language: Java
 
-#### Machine Learning and Data Mining (CPSC 340)
+### Machine Learning and Data Mining (CPSC 340)
 - Cross validation
 - Decision trees
 - Naive Bayes
