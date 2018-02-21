@@ -53,6 +53,8 @@ Watermark added to meme0.jpg
 Watermark added to meme1.jpg
 ~~~
 
+The watermarked images are then stored in the ```out/``` directory:
+
 <img src="../blog/_img/figs/watermarker/fig2.png" alt="fig1" height="336" width="672" align = "middle"> 
 
 
