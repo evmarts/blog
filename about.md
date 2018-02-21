@@ -3,11 +3,11 @@ layout: page
 title: About
 ---
 
+<img src="../blog/_img/profile/lake.jpg" alt="fig1" height="672" width="672" align = "middle">
+
 Fourth-year student in the Computer Science and Statistics program at UBC, Vancouver. 
 
-Interests in machine learning, statistics and social media marketing. 
-
-[Projects](https://github.com/evmarts)
+Interests in machine learning, statistics and social media marketing.
 
 
 
