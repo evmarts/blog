@@ -1,3 +1,8 @@
+---
+layout: page
+title: Background
+---
+
 ### Statistics Background
 
 #### Sample Surveys (STAT 344)
