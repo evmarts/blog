@@ -14,7 +14,7 @@ title: Background
 -  Pilot studies
 -  Dealing with nonresponse
 
-**Programming Language**: R
+Programming Language: R
 
 #### Statistical Inference (STAT 305)
 - Moment generating functions
@@ -30,7 +30,7 @@ title: Background
 - Analysis of categorical data
 - Goodness of fit tests
 
-**Programming Language**: R
+Programming Language: R
 
 #### Finding Relationships in Data (STAT 306)
 - Modeling a response variable as a function of several explanatory variables
@@ -41,7 +41,7 @@ title: Background
 - Principal components analysis (PCA)
 - Cluster analysis
 
-**Programming Language**: R
+Programming Language: R
 
 #### Time Series and Forecasting (STAT 443)
 - Trend and seasonality 
@@ -53,9 +53,9 @@ title: Background
 - Box-Jenkins approach 
 - Frequency domain analysis
 
-**Textbook**: Chatfield. The Analysis of Time Series, An Introduction
+Textbook: Chatfield. The Analysis of Time Series, An Introduction
 
-**Programming Language**: R
+Programming Language: R
 
 ### Math Background
 
@@ -67,7 +67,7 @@ title: Background
 - Continuous time Markov chains
 - Renewal theory
 
-**Textbook**: Ross. Introduction to Probability Models.
+Textbook: Ross. Introduction to Probability Models.
 
 #### Applied Linear Algebra (MATH 307)
 
@@ -92,9 +92,9 @@ title: Background
 - Applications of linear algebra to problems in science and engineering
 - Use of computer algebra systems for solving problems in linear algebras
 
-**Textbook**: Strang. Linear Algebra and Its Applications
+Textbook: Strang. Linear Algebra and Its Applications
 
-**Programming Language**: MATLAB
+Programming Language: MATLAB
 
 #### Numerical Computation for Algebraic Problems (CPSC 302)
 
@@ -126,9 +126,9 @@ title: Background
 - Eigenvalue problems
 	- Power method (with inverse and shift modifications)
 
-**Textbook**: Ascher, Greif. A First Course in Numerical Methods
+Textbook: Ascher, Greif. A First Course in Numerical Methods
 
-**Programming Language**: MATLAB
+Programming Language: MATLAB
 
 #### Numerical Approximation and Discretization (CPSC 303) TODO
 
@@ -161,9 +161,9 @@ title: Background
 	- Absolute stability and stiffness
 	- Error estimation
 
-**Textbook**: Ascher, Greif. A First Course in Numerical Methods
+Textbook: Ascher, Greif. A First Course in Numerical Methods
 
-**Programming Language**: MATLAB
+Programming Language: MATLAB
 
 ### Computer Science Background
 
@@ -190,7 +190,7 @@ title: Background
 - Choosing appropriate data structures to represent a given problem
 - Recognizing similar properties between different problems
 
-**Textbook**: Kleinberg, Tardos. Algorithm Design
+Textbook: Kleinberg, Tardos. Algorithm Design
 
 #### Software Engingeering (CPSC 310)
 - REST and Async programming
@@ -205,7 +205,7 @@ title: Background
 	- REST endpoints
 	- packages: restify, jszip, parse5, mocha, chai
 
-**Programming Language**: Typescript 
+Programming Language: Typescript 
  
 #### Relational Databases (CPSC 304)
 - Overview of database systems 
@@ -219,9 +219,9 @@ title: Background
 - Entity-relationship model
 - Java + SQL programming project
 
-**Textbook**: Ramakrishnan, Gehrke. Database Management Systems
+Textbook: Ramakrishnan, Gehrke. Database Management Systems
 
-**Programming Language**: SQL, Java
+Programming Language: SQL, Java
 
 #### Internet Computing (CPSC 317) 
 - Basic communication protocols
@@ -247,9 +247,9 @@ title: Background
 	- firewalls
 - Principles associated with developing distributed applications
 
-**Textbook**: Kurose, Ross. Computer Networking, A Top Down Approach
+Textbook: Kurose, Ross. Computer Networking, A Top Down Approach
 
-**Programming Language**: Java, C
+Programming Language: Java, C
 
 #### Computer Hardware and Operating Systems (CPSC 313)
 - Instruction set architecture and a sequential CPU
@@ -258,9 +258,9 @@ title: Background
 - File systems
 - Virtual memory
 
-**Programming Language**: Bryany, O'Hallaron. Computer Systems, A Programmer's Perspective
+Programming Language: Bryany, O'Hallaron. Computer Systems, A Programmer's Perspective
 
-****Textbook****: C
+Textbook: C
 
 #### Artificial Intelligence (CPSC 322)
 - Reasoning and representation
@@ -271,9 +271,9 @@ title: Background
 - Planning under uncertainty
 - Multiagent systems
 
-**Textbook**: Poole, Mackworth. Artificial Intelligence, Foundations of Computational Agents
+Textbook: Poole, Mackworth. Artificial Intelligence, Foundations of Computational Agents
 
-**Programming Language**: Java
+Programming Language: Java
 
 #### Machine Learning and Data Mining (CPSC 340)
 - Cross validation
@@ -295,15 +295,6 @@ title: Background
 - Dimensionality reduction 
 - Applications to computer graphics, computer games, bio-informatics, information retrieval, e-commerce, databases, computer vision and artificial intelligence
 
-**Textbook**: Hastie, Tibshirani, Friedman. The Elements of Statistical Learning, Data Mining, Inference, and Prediction
+Textbook: Hastie, Tibshirani, Friedman. The Elements of Statistical Learning, Data Mining, Inference, and Prediction
 
-**Programming Language**: MATLAB
-
-#### Programming Languages
-- Python 
-- Java
-- C/C++
-- MATLAB
-- Javascript
-- R
-- SQL
+Programming Language: MATLAB
