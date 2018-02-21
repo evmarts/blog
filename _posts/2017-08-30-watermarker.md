@@ -37,7 +37,6 @@ Suppose we have the following images we would like to watermark with our usersna
 <img src="../blog/_img/figs/watermarker/meme0_clean.jpg" alt="fig1" height="168" width="168" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"><img src="../blog/_img/figs/watermarker/meme1_clean.jpg" alt="fig1" height="168" width="168">
 
 
-
 After placing the images of the text in the ```in/``` directory, we can run the script:
 
 ~~~
@@ -55,7 +54,7 @@ Watermark added to meme0.jpg
 Watermark added to meme1.jpg
 ~~~
 
-<img src="../blog/_img/figs/watermarker/meme0_marked.jpg" alt="fig1" height="168" width="168"><img src="../blog/_img/figs/watermarker/meme1_marked.jpg" alt="fig1" height="168" width="168">
+<img src="../blog/_img/figs/watermarker/meme0_marked.jpg" alt="fig1" height="168" width="168"style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"><img src="../blog/_img/figs/watermarker/meme1_marked.jpg" alt="fig1" height="168" width="168">
 
 
 ## Authors
