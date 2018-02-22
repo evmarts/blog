@@ -18,3 +18,5 @@ The code for these projects can be found on my Github page.
 I am a Fourth-year student in the Computer Science and Statistics program at UBC, Vancouver. 
 
 I have interests in machine learning, statistics and social media marketing.
+
+
