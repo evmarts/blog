@@ -4,8 +4,6 @@
 
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
-  <!-- <div class="sidebar-item">
-  </div> -->
 
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
@@ -25,12 +23,17 @@
         {% endif %}
       {% endif %}
     {% endfor %}
-
-    {% for post in site.posts %}  
-    <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-    <p><small>{{ post.date | date: "%B %e, %Y" }} . {{ post.category }} . </small></p>      
+    <div class="sidebar-item">
+      Recent Posts
+    </div>
+    {% for post in site.posts %} 
+    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href=href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    <div align="right" >
+      <small>
+        {{ post.date | date: "%B %e, %Y" }} . {{ post.category }} . 
+      </small>
+    </div>
     {% endfor %}  
-
   <div class="sidebar-item">
   </div>
 </div>
