@@ -3,7 +3,7 @@ layout: page
 title: Background
 ---
 
-The following are the undergraduate level courses I have completed and the topics they have covered.
+The following are some undergraduate level courses I have completed and the topics they have covered.
 
 ## Statistics Background
 
