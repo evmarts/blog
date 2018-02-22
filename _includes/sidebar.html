@@ -27,7 +27,7 @@
       Recent Posts
     </div>
     {% for post in site.posts %} 
-    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href=href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     <div align="right" >
       <small>
         {{ post.date | date: "%B %e, %Y" }} . {{ post.category }} . 
