@@ -3,9 +3,11 @@ layout: page
 title: Background
 ---
 
+The following is a list of courses I have completed and topics they have covered at an undergraduate level. 
+
 ## Statistics Background
 
-### Sample Surveys (STAT 344)
+### Sample Surveys
 - Planning and practice of sample surveys 
 - Unequal probability sampling
 - Systematic, multistage and stratified sampling 
@@ -15,6 +17,8 @@ title: Background
 -  Dealing with nonresponse
 
 Programming Language: R
+
+Course: STAT 344, UBC
 
 ### Statistical Inference (STAT 305)
 - Moment generating functions
@@ -32,7 +36,9 @@ Programming Language: R
 
 Programming Language: R
 
-### Finding Relationships in Data (STAT 306)
+Course: STAT 305, UBC
+
+### Finding Relationships in Data
 - Modeling a response variable as a function of several explanatory variables
 - Multiple regression for a continuous response 
 - Logistic regression for a binary response
@@ -43,7 +49,9 @@ Programming Language: R
 
 Programming Language: R
 
-### Time Series and Forecasting (STAT 443)
+Course: STAT 306, UBC
+
+### Time Series and Forecasting
 - Trend and seasonality 
 - Autocorrelation
 - Stationarity
@@ -57,11 +65,13 @@ Textbook: Chatfield. The Analysis of Time Series, An Introduction
 
 Programming Language: R
 
+Course: STAT 443, UBC
+
 ## Math Background
 
 ### Calculus I, II, III
 
-### Stochastic Processes (MATH 303)
+### Stochastic Processes
 - Discrete-time Markov chains
 - Poisson processes
 - Continuous time Markov chains
@@ -69,8 +79,9 @@ Programming Language: R
 
 Textbook: Ross. Introduction to Probability Models.
 
-### Applied Linear Algebra (MATH 307)
+Course: MATH 303, UBC
 
+### Applied Linear Algebra
 - Solving linear equations
 - Interpolation 
 - Finite difference approximations
@@ -96,8 +107,9 @@ Textbook: Strang. Linear Algebra and Its Applications
 
 Programming Language: MATLAB
 
-### Numerical Computation for Algebraic Problems (CPSC 302)
+Course: MATH 307
 
+### Numerical Computation for Algebraic Problems 
 - Analysis of round-off errors
 - Numerical techniques for basic mathematical processes
 - Solving nonlinear equations in one variable:
@@ -130,8 +142,9 @@ Textbook: Ascher, Greif. A First Course in Numerical Methods
 
 Programming Language: MATLAB
 
-### Numerical Approximation and Discretization (CPSC 303) TODO
+Course: CPSC 302, UBC
 
+### Numerical Approximation and Discretization
 - Analyis of round errors
 - Numerical techniques for basic mathematical processes involving discretization, and their analysis. 
 - Polynomial interpolation
@@ -165,9 +178,11 @@ Textbook: Ascher, Greif. A First Course in Numerical Methods
 
 Programming Language: MATLAB
 
+Course: CPSC 303, UBC
+
 ## Computer Science Background
 
-### Intermediate Algorithm Design and Analysis (CPSC 320)
+### Intermediate Algorithm Design and Analysis
 - Asymptotic analysis
 - Divide and conquer algorithms
 - Graphs
@@ -192,7 +207,9 @@ Programming Language: MATLAB
 
 Textbook: Kleinberg, Tardos. Algorithm Design
 
-### Software Engingeering (CPSC 310)
+Course: CPSC 320, UBC
+
+### Software Engingeering 
 - REST and Async programming
 - Software specifications
 - Agile development
@@ -205,9 +222,10 @@ Textbook: Kleinberg, Tardos. Algorithm Design
 	- REST endpoints
 	- packages: restify, jszip, parse5, mocha, chai
 
-Programming Language: Typescript 
+Programming Language: Typescript
+Course: CPSC 310, UBC 
  
-### Relational Databases (CPSC 304)
+### Relational Databases 
 - Overview of database systems 
 - Logical database design and normalization
 - Relational algebra
@@ -223,7 +241,9 @@ Textbook: Ramakrishnan, Gehrke. Database Management Systems
 
 Programming Language: SQL, Java
 
-### Internet Computing (CPSC 317) 
+Course: CPSC 304, UBC
+
+### Internet Computing 
 - Basic communication protocols
 	- Application layer: DHCP, DNS, FTP, BGP, SMTP, POP3
 	- Transport layer: TCP, UDP
@@ -251,18 +271,22 @@ Textbook: Kurose, Ross. Computer Networking, A Top Down Approach
 
 Programming Language: Java, C
 
-### Computer Hardware and Operating Systems (CPSC 313)
+Course: CPSC 317, UBC
+
+### Computer Hardware and Operating Systems
 - Instruction set architecture and a sequential CPU
 - A pipelined CPU
 - The memory hierarchy
 - File systems
 - Virtual memory
 
-Programming Language: Bryany, O'Hallaron. Computer Systems, A Programmer's Perspective
+Textbook: Bryany, O'Hallaron. Computer Systems, A Programmer's Perspective
 
-Textbook: C
+Programming Language: C
 
-### Artificial Intelligence (CPSC 322)
+Course: CPSC 313, UBC
+
+### Artificial Intelligence 
 - Reasoning and representation
 - Uninformed and heuristic search methods
 - Constraint satisfaction problems 
@@ -275,7 +299,9 @@ Textbook: Poole, Mackworth. Artificial Intelligence, Foundations of Computationa
 
 Programming Language: Java
 
-### Machine Learning and Data Mining (CPSC 340)
+Course: CPSC 322, UBC
+
+### Machine Learning and Data Mining
 - Cross validation
 - Decision trees
 - Naive Bayes
@@ -298,3 +324,5 @@ Programming Language: Java
 Textbook: Hastie, Tibshirani, Friedman. The Elements of Statistical Learning, Data Mining, Inference, and Prediction
 
 Programming Language: MATLAB
+
+Course: CPSC 340, UBC
