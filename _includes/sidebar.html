@@ -28,7 +28,7 @@
     </div>
     {% for post in site.posts %} 
     <a class="sidebar-nav-item"
-    href="https://evmarts.github.io/blog//{{ post.url }}">{{ post.title }}</a>
+    href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     <div align="right" >
       <small>
         {{ post.date | date: "%B %e, %Y" }} . {{ post.category }} . 

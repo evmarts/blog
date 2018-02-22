@@ -7,7 +7,7 @@ permalink:           pretty
 title:               Evan James Martin
 tagline:             'Computer Science & Statistics'
 description:         ''
-baseurl:             '/blog/'
+baseurl:             '/blog'
 paginate:            5
 
 include:
