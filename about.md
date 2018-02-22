@@ -3,11 +3,18 @@ layout: page
 title: About
 ---
 
-<!--![image-title-here](/blog/_img/profile/lake.jpg){:height="200px" width="200px" align = "center"} -->
+### The Blog
 
-Fourth-year student in the Computer Science and Statistics program at UBC, Vancouver. 
+This is a blog for my personal projects. I enjoy automating things so most of what you see will be about automating some process that would be tedious to do by hand.
 
-Interests in machine learning, statistics and social media marketing.
+Right now I'm pretty interested in social media marketing so I might have some posts about that as well. 
+ 
+I also plan to post summaries or visualizations of the topic discussed in a paper I have found interesting. 
 
+The code for these projects can be found on my Github page. 
 
+### The Blogger
 
+I am a Fourth-year student in the Computer Science and Statistics program at UBC, Vancouver. 
+
+I have interests in machine learning, statistics and social media marketing.
