@@ -19,7 +19,7 @@ The following is a list of courses I have completed and topics they have covered
 Course: STAT 344, UBC  
 Programming Language: R
 
-### Statistical Inference (STAT 305)
+### Statistical Inference
 - Moment generating functions
 - Sampling distribution theory
 - Large sample theory and methods of estimation
