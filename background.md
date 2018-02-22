@@ -16,9 +16,8 @@ The following is a list of courses I have completed and topics they have covered
 -  Pilot studies
 -  Dealing with nonresponse
 
+Course: STAT 344, UBC  
 Programming Language: R
-
-Course: STAT 344, UBC
 
 ### Statistical Inference (STAT 305)
 - Moment generating functions
@@ -34,9 +33,8 @@ Course: STAT 344, UBC
 - Analysis of categorical data
 - Goodness of fit tests
 
+Course: STAT 305, UBC  
 Programming Language: R
-
-Course: STAT 305, UBC
 
 ### Finding Relationships in Data
 - Modeling a response variable as a function of several explanatory variables
@@ -47,9 +45,8 @@ Course: STAT 305, UBC
 - Principal components analysis (PCA)
 - Cluster analysis
 
+Course: STAT 306, UBC  
 Programming Language: R
-
-Course: STAT 306, UBC
 
 ### Time Series and Forecasting
 - Trend and seasonality 
@@ -61,11 +58,9 @@ Course: STAT 306, UBC
 - Box-Jenkins approach 
 - Frequency domain analysis
 
-Textbook: Chatfield. The Analysis of Time Series, An Introduction
-
+Course: STAT 443, UBC  
+Textbook: Chatfield. The Analysis of Time Series, An Introduction  
 Programming Language: R
-
-Course: STAT 443, UBC
 
 ## Math Background
 
@@ -77,9 +72,8 @@ Course: STAT 443, UBC
 - Continuous time Markov chains
 - Renewal theory
 
+Course: MATH 303, UBC  
 Textbook: Ross. Introduction to Probability Models.
-
-Course: MATH 303, UBC
 
 ### Applied Linear Algebra
 - Solving linear equations
@@ -103,11 +97,9 @@ Course: MATH 303, UBC
 - Applications of linear algebra to problems in science and engineering
 - Use of computer algebra systems for solving problems in linear algebras
 
-Textbook: Strang. Linear Algebra and Its Applications
-
+Course: MATH 307  
+Textbook: Strang. Linear Algebra and Its Applications  
 Programming Language: MATLAB
-
-Course: MATH 307
 
 ### Numerical Computation for Algebraic Problems 
 - Analysis of round-off errors
@@ -138,11 +130,9 @@ Course: MATH 307
 - Eigenvalue problems
 	- Power method (with inverse and shift modifications)
 
-Textbook: Ascher, Greif. A First Course in Numerical Methods
-
+Course: CPSC 302, UBC  
+Textbook: Ascher, Greif. A First Course in Numerical Methods  
 Programming Language: MATLAB
-
-Course: CPSC 302, UBC
 
 ### Numerical Approximation and Discretization
 - Analyis of round errors
@@ -174,11 +164,9 @@ Course: CPSC 302, UBC
 	- Absolute stability and stiffness
 	- Error estimation
 
-Textbook: Ascher, Greif. A First Course in Numerical Methods
-
+Course: CPSC 303, UBC  
+Textbook: Ascher, Greif. A First Course in Numerical Methods  
 Programming Language: MATLAB
-
-Course: CPSC 303, UBC
 
 ## Computer Science Background
 
@@ -205,9 +193,8 @@ Course: CPSC 303, UBC
 - Choosing appropriate data structures to represent a given problem
 - Recognizing similar properties between different problems
 
+Course: CPSC 320, UBC  
 Textbook: Kleinberg, Tardos. Algorithm Design
-
-Course: CPSC 320, UBC
 
 ### Software Engingeering 
 - REST and Async programming
@@ -222,8 +209,8 @@ Course: CPSC 320, UBC
 	- REST endpoints
 	- packages: restify, jszip, parse5, mocha, chai
 
+Course: CPSC 310, UBC   
 Programming Language: Typescript
-Course: CPSC 310, UBC 
  
 ### Relational Databases 
 - Overview of database systems 
@@ -237,11 +224,9 @@ Course: CPSC 310, UBC
 - Entity-relationship model
 - Java + SQL programming project
 
-Textbook: Ramakrishnan, Gehrke. Database Management Systems
-
+Course: CPSC 304, UBC  
+Textbook: Ramakrishnan, Gehrke. Database Management Systems  
 Programming Language: SQL, Java
-
-Course: CPSC 304, UBC
 
 ### Internet Computing 
 - Basic communication protocols
@@ -267,11 +252,9 @@ Course: CPSC 304, UBC
 	- firewalls
 - Principles associated with developing distributed applications
 
-Textbook: Kurose, Ross. Computer Networking, A Top Down Approach
-
+Course: CPSC 317, UBC  
+Textbook: Kurose, Ross. Computer Networking, A Top Down Approach  
 Programming Language: Java, C
-
-Course: CPSC 317, UBC
 
 ### Computer Hardware and Operating Systems
 - Instruction set architecture and a sequential CPU
@@ -280,11 +263,9 @@ Course: CPSC 317, UBC
 - File systems
 - Virtual memory
 
-Textbook: Bryany, O'Hallaron. Computer Systems, A Programmer's Perspective
-
+Course: CPSC 313, UBC  
+Textbook: Bryany, O'Hallaron. Computer Systems, A Programmer's Perspective  
 Programming Language: C
-
-Course: CPSC 313, UBC
 
 ### Artificial Intelligence 
 - Reasoning and representation
@@ -295,11 +276,9 @@ Course: CPSC 313, UBC
 - Planning under uncertainty
 - Multiagent systems
 
-Textbook: Poole, Mackworth. Artificial Intelligence, Foundations of Computational Agents
-
-Programming Language: Java
-
-Course: CPSC 322, UBC
+Course: CPSC 322, UBC  
+Textbook: Poole, Mackworth. Artificial Intelligence, Foundations of Computational Agents  
+Programming Language: Java  
 
 ### Machine Learning and Data Mining
 - Cross validation
@@ -321,8 +300,6 @@ Course: CPSC 322, UBC
 - Dimensionality reduction 
 - Applications to computer graphics, computer games, bio-informatics, information retrieval, e-commerce, databases, computer vision and artificial intelligence
 
-Textbook: Hastie, Tibshirani, Friedman. The Elements of Statistical Learning, Data Mining, Inference, and Prediction
-
+Course: CPSC 340, UBC   
+Textbook: Hastie, Tibshirani, Friedman. The Elements of Statistical Learning, Data Mining, Inference, and Prediction  
 Programming Language: MATLAB
-
-Course: CPSC 340, UBC
