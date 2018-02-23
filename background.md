@@ -66,6 +66,8 @@ Programming Language: R
 
 ### Calculus I, II, III
 
+Course: MATH 100, MATH 101, MATH 200 UBC
+
 ### Stochastic Processes
 - Discrete-time Markov chains
 - Poisson processes
