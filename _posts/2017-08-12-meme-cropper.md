@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Batch Watermarking Images
+title: Partitioning Twitter Memes
 ---
 
 The goal of this project is to automate the partitioning of a Twitter-screenshot meme into text and attachment components. 
@@ -8,9 +8,7 @@ The goal of this project is to automate the partitioning of a Twitter-screenshot
 ## Motivation: 
 The Twitter-screenshot meme is an image file that contains a text component and an attachment component, where the text component is a string of text that describes the attachment component. Below are some examples:
 
-<!--<img src="./figures/sample/meme2.jpg" width="200px" alt=""><img src="./figures/sample/meme5.jpg" width="200px" alt=""><img src="./figures/sample/meme6.jpg" width="200px" alt=""><img src="./figures/sample/meme9.jpg" width="200px" alt="">-->
-
-<img src="../blog/_img/figs/meme-cropper/sample/meme2.jpg" width="200px"><img src="../blog/_img/figs/meme-cropper/sample/meme5.jpg" width="200px"><img src="../blog/_img/figs/meme-cropper/sample/meme6.jpg" width="200px"><img src="../blog/_img/figs/meme-cropper/sample/meme9.jpg" width="200px">
+![](/blog/_img/figs/meme-cropper/memes.png){:class="img-responsive"}
 
 I will refer to the image below the text as an "attachment" as to avoid confusion with the entire image of the meme. 
 
@@ -22,15 +20,11 @@ The boundaries of the text component and the attachment component are variable s
 
 One way to do this is to apply some computer vision and find the largest rectangular component, which is expected to be the attachment-component. Below are examples of the boundaries I was able to detect via the OpenCV computer vision library:
 
-<!--<img src="./figures/sample/meme2_contour.jpg" width="200px" alt=""><img src="./figures/sample/meme5_contour.jpg" width="200px" alt=""><img src="./figures/sample/meme6_contour.jpg" width="200px" alt=""><img src="./figures/sample/meme9_contour.jpg" width="200px" alt="">-->
-
-<img src="../blog/_img/figs/meme-cropper/sample/meme2_contour.jpg" width="200px" alt=""><img src="../blog/_img/figs/meme-cropper/sample/meme5_contour.jpg" width="200px" alt=""><img src="../blog/_img/figs/meme-cropper/sample/meme6_contour.jpg" width="200px" alt=""><img src="../blog/_img/figs/meme-cropper/sample/meme9_contour.jpg" width="200px" alt="">
+![](/blog/_img/figs/meme-cropper/memes_attach.png){:class="img-responsive"}
 
 Once we know the boundaries of the attachment, we compute the boundaries of the text component as everything above the upper boundary of the attachment. 
 
-<!--<img src="./figures/sample/meme2_contours.jpg" width="200px" alt=""><img src="./figures/sample/meme5_contours.jpg" width="200px" alt=""><img src="./figures/sample/meme6_contours.jpg" width="200px" alt=""><img src="./figures/sample/meme9_contours.jpg" width="200px" alt="">-->
-
-<img src="../blog/_img/figs/meme-cropper/sample/meme2_contours.jpg" width="200px" alt=""><img src="../blog/_img/figs/meme-cropper/sample/meme5_contours.jpg" width="200px" alt=""><img src="../blog/_img/figs/meme-cropper/sample/meme6_contours.jpg" width="200px" alt=""><img src="../blog/_img/figs/meme-cropper/sample/meme9_contours.jpg" width="200px" alt="">
+![](/blog/_img/figs/meme-cropper/memes_contoured.png){:class="img-responsive"}
 
 ## Getting Started
 
@@ -56,10 +50,7 @@ Run the script:
 
 Suppose we have the following images stored in the ```in/``` directory:
 
-<!--<img src="./figures/sample/sample0.jpg" width="100px" alt=""><img src="./figures/sample/sample1.jpg" width="100px" alt=""><img src="./figures/sample/sample2.jpg" width="100px" alt=""><img src="./figures/sample/sample3.jpg" width="100px" alt=""><img src="./figures/sample/sample4.jpg" width="100px" alt=""><img src="./figures/sample/sample5.jpg" width="100px" alt=""><img src="./figures/sample/sample6.jpg" width="100px" alt=""><img src="./figures/sample/sample7.jpg" width="100px" alt="">
--->
-
-<img src="../blog/_img/figs/meme-cropper/sample/sample0.jpg" width="100px" alt=""><img src="../blog/_img/figs/meme-cropper/sample/sample1.jpg" width="100px" alt=""><img src="../blog/_img/figs/meme-cropper/sample/sample2.jpg" width="100px" alt=""><img src="../blog/_img/figs/meme-cropper/sample/sample3.jpg" width="100px" alt=""><img src="../blog/_img/figs/meme-cropper/sample/sample4.jpg" width="100px" alt=""><img src="../blog/_img/figs/meme-cropper/sample/sample5.jpg" width="100px" alt=""><img src="../blog/_img/figs/meme-cropper/sample/sample6.jpg" width="100px" alt=""><img src="../blog/_img/figs/meme-cropper/sample/sample7.jpg" width="100px" alt="">
+![](/blog/_img/figs/meme-cropper/inputs.png){:class="img-responsive"}
 
 We will run the Python script
 
@@ -76,16 +67,11 @@ Image component saved as: out/pic/sample7pic.jpg
 
 The text components of the images are stored in the ```out/text/``` directory: 
 
-<!--<img src="./figures/texts/sample0text.jpg" width="100px" alt=""><img src="./figures/texts/sample1text.jpg" width="100px" alt=""><img src="./figures/texts/sample2text.jpg" width="100px" alt=""><img src="./figures/texts/sample3text.jpg" width="100px" alt=""><img src="./figures/texts/sample4text.jpg" width="100px" alt=""><img src="./figures/texts/sample5text.jpg" width="100px" alt=""><img src="./figures/texts/sample6text.jpg" width="100px" alt=""><img src="./figures/texts/sample7text.jpg" width="100px" alt="">-->
-
-<img src="../blog/_img/figs/meme-cropper/sample/sample0text.jpg" width="100px" alt=""><img src="../blog/_img/figs/meme-cropper/sample/sample1text.jpg" width="100px" alt=""><img src="../blog/_img/figs/meme-cropper/sample/sample2text.jpg" width="100px" alt=""><img src="../blog/_img/figs/meme-cropper/sample/sample3text.jpg" width="100px" alt=""><img src="../blog/_img/figs/meme-cropper/sample/sample4text.jpg" width="100px" alt=""><img src="../blog/_img/figs/meme-cropper/sample/sample5text.jpg" width="100px" alt=""><img src="../blog/_img/figs/meme-cropper/sample/sample6text.jpg" width="100px" alt=""><img src="../blog/_img/figs/meme-cropper/sample/sample7text.jpg" width="100px" alt="">
+![](/blog/_img/figs/meme-cropper/textoutput.png){:class="img-responsive"}
 
 and the attachment components are stored in the ```out/pics``` directory:
 
-<!--
-<img src="./figures/pics/sample0pic.jpg" width="100px" alt=""><img src="./figures/pics/sample1pic.jpg" width="100px" alt=""><img src="./figures/pics/sample2pic.jpg" width="100px" alt=""><img src="./figures/pics/sample3pic.jpg" width="100px" alt=""><img src="./figures/pics/sample4pic.jpg" width="100px" alt=""><img src="./figures/pics/sample5pic.jpg" width="100px" alt=""><img src="./figures/pics/sample6pic.jpg" width="100px" alt=""><img src="./figures/pics/sample7pic.jpg" width="100px" alt="">-->
-
-<img src="../blog/_img/figs/meme-cropper/sample/sample0pic.jpg" width="100px" alt=""><img src="../blog/_img/figs/meme-cropper/sample/sample1pic.jpg" width="100px" alt=""><img src="../blog/_img/figs/meme-cropper/sample/sample2pic.jpg" width="100px" alt=""><img src="../blog/_img/figs/meme-cropper/sample/sample3pic.jpg" width="100px" alt=""><img src="../blog/_img/figs/meme-cropper/sample/sample4pic.jpg" width="100px" alt=""><img src="../blog/_img/figs/meme-cropper/sample/sample5pic.jpg" width="100px" alt=""><img src="../blog/_img/figs/meme-cropper/sample/sample6pic.jpg" width="100px" alt=""><img src="../blog/_img/figs/meme-cropper/sample/sample7pic.jpg" width="100px" alt="">
+![](/blog/_img/figs/meme-cropper/picoutput.png){:class="img-responsive"}
 
 ## Notes
 
