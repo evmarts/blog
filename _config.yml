@@ -4,9 +4,9 @@
 permalink:           pretty
 
 # Setup
-title:               EJM
+title:               evmarts
 tagline:             'blog'
-description:         ''
+description:         'data science stuff'
 baseurl:             '/blog'
 paginate:            5
 
