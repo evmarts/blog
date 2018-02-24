@@ -11,7 +11,7 @@ What I like to call the "Twitter-screenshot meme" is a meme format that was inve
 
 ![](/blog/_img/figs/meme-maker/meme.png){:class="img-responsive"}
 
-I would format this way by doing the following:
+To format this way, I would go through these steps:
 
 1. Open Twitter on my phone
 2. Compose a new Tweet and attach an image
