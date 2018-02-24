@@ -19,7 +19,7 @@ This project combines the functionality of three other projects of mine:
 
 Suppose we have bulk-downloaded some memes: 
 
-<img src="./figs/sample0.jpg" width="128px" alt=""><img src="./figs/sample1.jpg" width="128px" alt=""><img src="./figs/sample2.jpg" width="128px" alt=""><img src="./figs/sample3.jpg" width="128px" alt=""><img src="./figs/sample4.jpg" width="128px" alt=""><img src="./figs/sample5.jpg" width="128px" alt="">
+![](/blog/_img/figs/meme-recycler/unformatted.png){:class="img-responsive"}
 
 Notice how the format of these memes are slightly different. The spacing, font and positioning of the text varies.
 
@@ -34,7 +34,7 @@ This was the case for me when I would repost memes to my accounts, I would have 
 
 If I were to go through these steps with the images above, I would have created the following images: 
 
-<img src="./figs/sample_new0.jpg" width="128px" alt=""><img src="./figs/sample_new1.jpg" width="128px" alt=""><img src="./figs/sample_new2.jpg" width="128px" alt=""><img src="./figs/sample_new3.jpg" width="128px" alt=""><img src="./figs/sample_new4.jpg" width="128px" alt=""><img src="./figs/sample_new5.jpg" width="128px" alt="">
+![](/blog/_img/figs/meme-recycler/formatted.png){:class="img-responsive"}
 
 This process of taking a screenshot of your tweet gives us a common format, but the steps are painfully mechanical and it just takes a long time. We want to automate this process.
 
@@ -62,7 +62,7 @@ Run the script:
 
 Suppose we wanted to reformat the following memes:
 
-<img src="./figs/sample0.jpg" width="128px" alt=""><img src="./figs/sample1.jpg" width="128px" alt=""><img src="./figs/sample2.jpg" width="128px" alt=""><img src="./figs/sample3.jpg" width="128px" alt=""><img src="./figs/sample4.jpg" width="128px" alt=""><img src="./figs/sample5.jpg" width="128px" alt="">
+![](/blog/_img/figs/meme-recycler/unformatted.png){:class="img-responsive"}
 
 With these images in the ```in/``` directory, we can run the Python script.
 
@@ -79,9 +79,7 @@ cropped sample4.jpg
 cropped sample5.jpg
 ~~~
 
-<img src="./figs/sample0_pic.jpg" width="128px" alt=""><img src="./figs/sample1_pic.jpg" width="128px" alt=""><img src="./figs/sample2_pic.jpg" width="128px" alt=""><img src="./figs/sample3_pic.jpg" width="128px" alt=""><img src="./figs/sample4_pic.jpg" width="128px" alt=""><img src="./figs/sample5_pic.jpg" width="128px" alt="">
-
-<img src="./figs/sample0_text.jpg" width="128px" alt=""><img src="./figs/sample1_text.jpg" width="128px" alt=""><img src="./figs/sample2_text.jpg" width="128px" alt=""><img src="./figs/sample3_text.jpg" width="128px" alt=""><img src="./figs/sample4_text.jpg" width="128px" alt=""><img src="./figs/sample5_text.jpg" width="128px" alt="">
+![](/blog/_img/figs/meme-recycler/components.png){:class="img-responsive"}
 
 then runs code from ```meme-text-ocr``` to apply optical character recognition to the images of text shown above.
 
@@ -117,7 +115,7 @@ Done!
 
 The new memes are then stored in the ```out/``` directory:
 
-<img src="./figs/sample_new0.jpg" width="128px" alt=""><img src="./figs/sample_new1.jpg" width="128px" alt=""><img src="./figs/sample_new2.jpg" width="128px" alt=""><img src="./figs/sample_new3.jpg" width="128px" alt=""><img src="./figs/sample_new4.jpg" width="128px" alt=""><img src="./figs/sample_new5.jpg" width="128px" alt="">
+![](/blog/_img/figs/meme-recycler/formatted.png){:class="img-responsive"}
 
 ## Authors
 
