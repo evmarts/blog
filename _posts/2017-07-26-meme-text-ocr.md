@@ -3,16 +3,13 @@ layout: post
 title: Recognizing Text from Memes
 ---
 
-The goal of this project is to recognize the text in an image of text. 
-
-This project is also the second stage of [another project.](https://github.com/evmarts/meme-recycler)
+The goal of this project is to recognize a string of text in an image of text. 
 
 ## Motivation
 
 In a [previous project](https://github.com/evmarts/meme-cropper), images of memes were partitioned into a text component and an image component: 
 
-![image-title-here](/blog/_img/figs/meme-text-ocr/fig1.jpg){:class="img-responsive"}
-
+![](/blog/_img/figs/meme-text-ocr/sample/meme9_contours.jpg){:class="img-responsive" height="300px" width="300px" align = "center"}
 
 We may want to convert the text component into a string so that we can reuse, modify or analyze it. 
 
@@ -42,19 +39,15 @@ Run the script:
 
 Suppose we have the following meme:
 
+![](/blog/_img/figs/meme-text-ocr/sample/sample6.jpg){:class="img-responsive" height="300px" width="300px" align = "center"}
 
-![image-title-here](/blog/_img/figs/meme-text-ocr/sample_meme.jpg){:class="img-responsive"}
+Assume we have [some way](https://github.com/evmarts/meme-cropper) of partition the memes into two components:
 
-Assume we have [some way](https://github.com/evmarts/meme-cropper) of partition the meme into two components,
+A text component and an image component:
 
-an image component,
+![](/blog/_img/figs/meme-text-ocr/pics/sample6pic.jpg){:class="img-responsive" height="300px" width="300px" align = "center"}
 
-![image-title-here](/blog/_img/figs/meme-text-ocr/sample_meme_image.jpg){:class="img-responsive"}
-
-and the text component, say *text.jpg*,
-
-
-![image-title-here](/blog/_img/figs/meme-text-ocr/fig2.jpg){:class="img-responsive"}
+![](/blog/_img/figs/meme-text-ocr/fig2.jpg){:class="img-responsive" height="300px" width="300px" align = "center"}
 
 After placing the image of the text in the ```in/``` directory, we can run the script:
 
@@ -69,11 +62,6 @@ The script then outputs the following:
 Text recognized as: 'When you call shotgun but end up in the back'
 ~~~
 
-
 ## Authors
 
 Evan Martin
-
-## Acknowledgments
-
-* Tesseract Open Source OCR Engine
