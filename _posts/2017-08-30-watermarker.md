@@ -65,7 +65,7 @@ Watermark added to meme5.jpg
 
 The program looks at the dimension of an input image and uses PIL to paste a watermark in the user-specified location. The watermarked images are then stored in the ```out/``` directory:
 
-![](/blog/_img/figs/watermarker/batch_example.png){:class="img-responsive"}
+![](/blog/_img/figs/watermarker/batch_marked.png){:class="img-responsive"}
 
 
 ## Authors
