@@ -9,8 +9,7 @@ The goal of this project is to automate the process of creating the basic Twitte
 
 What I like to call the "Twitter-screenshot meme" is a meme format that was invented by taking a screenshot of a tweet with an image attachment. For example, the following image is a Twitter-screenshot meme: 
 
-![](/blog/_img/figs/meme-maker/meme.png)
-{:height="100px" width="100px"}
+![](/blog/_img/figs/meme-maker/meme.png){:class="img-responsive" height="100px" width="100px"}
 
 To format this way, I would go through these steps:
 
