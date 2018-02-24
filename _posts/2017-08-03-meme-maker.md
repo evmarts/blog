@@ -9,7 +9,8 @@ The goal of this project is to automate the process of creating the basic Twitte
 
 What I like to call the "Twitter-screenshot meme" is a meme format that was invented by taking a screenshot of a tweet with an image attachment. For example, the following image is a Twitter-screenshot meme: 
 
-![](/blog/_img/figs/meme-maker/meme.png){:class="img-responsive"}
+![](/blog/_img/figs/meme-maker/meme.png)
+{:height="300px" width="300px"}
 
 To format this way, I would go through these steps:
 
@@ -46,7 +47,8 @@ Suppose we have a string of text, an image and we would like to make a meme out 
 ```
 You win this round, cheese
 ```
-![](/blog/_img/figs/meme-maker/img.jpg){:class="img-responsive"}
+![](/blog/_img/figs/meme-maker/img.jpg)
+{:height="300px" width="300px"}
 
 Once the image is stored in the  ```in/``` directory, we can run the Python script: 
 
@@ -59,8 +61,8 @@ saved image as: meme.png
 
 and the image *meme.jpg* will be stored in the ```out/``` directory:
 
-![](/blog/_img/figs/meme-maker/meme.png){:class="img-responsive"}
-
+![](/blog/_img/figs/meme-maker/meme.png)
+{:height="300px" width="300px"}
 
 ## Authors
 
