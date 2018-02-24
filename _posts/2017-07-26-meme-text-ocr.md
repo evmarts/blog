@@ -47,7 +47,7 @@ A text component and an image component:
 
 ![](/blog/_img/figs/meme-text-ocr/pics/sample6pic.jpg){:class="img-responsive" height="300px" width="300px" align = "center"}
 
-![](/blog/_img/figs/meme-text-ocr/fig2.jpg){:class="img-responsive" height="300px" width="300px" align = "center"}
+![](/blog/_img/figs/meme-text-ocr/fig2.jpg){:class="img-responsive" align = "center"}
 
 After placing the image of the text in the ```in/``` directory, we can run the script:
 
