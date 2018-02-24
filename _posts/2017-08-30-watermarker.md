@@ -11,7 +11,7 @@ The sharing of images on social media platforms has become notorious for the rec
 
 To retain some of the credit, the original poster may add a watermark to their image: 
 
-![](/blog/_img/figs/watermarker/example){:class="img-responsive"}
+![](/blog/_img/figs/watermarker/example.png){:class="img-responsive"}
 
 Adding a watermark to an image involves the straightforward task of adding text to an image, which can be done in most image editors. 
 
@@ -39,7 +39,7 @@ Run the script:
 
 Suppose we have the following images we would like to watermark with our usersname, *@userhandle*:
 
-![](/blog/_img/figs/watermarker/batch){:class="img-responsive"}
+![](/blog/_img/figs/watermarker/batch.png){:class="img-responsive"}
 
 After placing the images of the text in the ```in/``` directory, we can run the script:
 
@@ -65,7 +65,7 @@ Watermark added to meme5.jpg
 
 The program looks at the dimension of an input image and uses PIL to paste a watermark in the user-specified location. The watermarked images are then stored in the ```out/``` directory:
 
-![](/blog/_img/figs/watermarker/batch_example){:class="img-responsive"}
+![](/blog/_img/figs/watermarker/batch_example.png){:class="img-responsive"}
 
 
 ## Authors
