@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Social Media Marketing Research
+title: A paper on social media marketing
 ---
 
-In recent years, social media has become ubiquitous and important for social networking and content sharing (Asur and Huberman 493). As a result, new possibilities have emerged for companies to create and maintain customer relations (Bergström and Bäckman 2). In addition to already established companies, those wishing to start a business will look towards social media in order to collect a base of potential customers. Many users of social media, however, would rather not see the platforms become commercialized and full of advertising. In this essay, I will explore the current state of marketing on social media sites and attempt to predict how social media marketing (SMM) will change the field of marketing.
+In the second year of my undergrad I was tasked with writing a research paper for an English course. I was just starting to get into internet marketing so I chose to write a paper on social media marketing (SMM). Below is the opening paragraph from the research proposal I wrote:
 
-The key to success in social media marketing relies on two factors: collecting an audience; and selling to that audience. Collecting an audience, or branding, relies on the social media account to post informative and engaging content that encourages social media user interaction (Charkas and Eltun 9). However, engaging users while also attempting to promote a product can be difficult (Bergström and Bäckman 2). Social media has been proven to also be a competent multimedia sales forecaster (Sitaram and Huberman 492). Because of this correlation, businesses have been able to identify trends in social media and create products that relate to the trend and experience increased sales. That being said, SMM is not seeing its full potential and many unaware businesses are missing out on sales. I will attempt to determine which of the social media platforms holds the greatest potential for marketing. In addition, after discussing if this form of marketing will last, I will compare SMM to other forms of advertising and explore how marketing may look in the future.
-	
+> In recent years, social media has become ubiquitous and important for social networking and content sharing. As a result, new possibilities have emerged for companies to create and maintain customer relations. In addition to already established companies, those wishing to start a business will look towards social media in order to collect a base of potential customers. Many users of social media, however, would rather not see the platforms become commercialized and full of advertising. In this essay, I  explore the current state of marketing on social media sites and attempt to predict how social media marketing (SMM) will change the field of marketing.
+
+![Read the full essay.]({{ site.url }}/assets/SSM_research_essay)
