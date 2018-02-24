@@ -59,7 +59,7 @@ saved image as: meme.png
 
 and the image *meme.jpg* will be stored in the ```out/``` directory:
 
-![](/blog/_img/figs/meme-maker/meme.png){:class="img-responsive" height="300px" width="300px" align = "center"}
+![](/blog/_img/figs/meme-maker/meme.png){:class="img-responsive" height="300px" width="300px" align = "middle"}
 
 ## Authors
 
