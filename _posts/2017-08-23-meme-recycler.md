@@ -95,7 +95,7 @@ Got text of sample5_text.jpg
 
 ```when you bring your own bag to the grocery store```,   
 ```When your customizable character is in a cutscene```,   
-```when you're making a frozen pizza but not all the pepperonis are spready evenly so you rearrange them just a litte```,  
+```when you're making a frozen pizza but not all the pepperonis are spread evenly so you rearrange them just a litte```,  
 ```When your parents pick you up early from school```,   
 ```When you call shotgun but end up in the back```,   
 ```When you successfully heat up a frozen pizza without burning down the house```
