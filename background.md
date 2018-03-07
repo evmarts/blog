@@ -3,6 +3,8 @@ layout: page
 title: Background
 ---
 
+[Curriculum vitae](https://evmarts.github.io/blog/assets/cv.pdf)
+
 The following are some undergraduate level courses I have completed and the topics they have covered.
 
 ## Statistics Background
