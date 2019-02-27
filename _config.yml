@@ -1,10 +1,10 @@
 # Site settings
 title: evmarts blog
 description: "a place for all my projects"
-url: "/blog"
+url: ""
 
 # Build settings
-baseurl: "" # Change this to your relative path (ex: /blog/), or leave just a /
+baseurl: "/blog" # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
 source: .
 destination: ./_site
