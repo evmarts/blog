@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Recycling Memes in Bulk
+title: recycling memes in bulk
 ---
 
 The goal of this project is to take an image of meme and output a reformatted image of the meme. 
 
-## Notes
+### notes
 
 This project combines the functionality of three other projects of mine: 
 
@@ -15,11 +15,11 @@ This project combines the functionality of three other projects of mine:
 
 3. [Automated Twitter Memes](https://evmarts.github.io/blog/2017/08/03/meme-maker/)
 
-## Motivation:
+### motivation:
 
 Suppose we have bulk-downloaded some memes: 
 
-![](/blog/_img/figs/meme-recycler/unformatted.png){:class="img-responsive"}
+![](img/figs/meme-recycler/unformatted.png){:class="img-responsive"}
 
 Notice how the format of these memes are slightly different. The spacing, font and positioning of the text varies.
 
@@ -34,7 +34,7 @@ This was the case for me when I would repost memes to my accounts, I would have 
 
 If I were to go through these steps with the images above, I would have created the following images: 
 
-![](/blog/_img/figs/meme-recycler/formatted.png){:class="img-responsive"}
+![](img/figs/meme-recycler/formatted.png){:class="img-responsive"}
 
 This process of taking a screenshot of your tweet gives us a common format, but the steps are painfully mechanical and it just takes a long time. We want to automate this process.
 
@@ -46,7 +46,7 @@ Notice that to automate this process we would need to do three things:
 
 If we had programs to perform each one of those steps then we could automate this process and save a lot of time. 
 
-## Getting Started
+### getting started
 
 Install [tesseract](https://github.com/tesseract-ocr/tesseract/wiki).
 
@@ -58,11 +58,11 @@ Clone:
 Run the script:
 ```python meme-recycler.py```
 
-## Examples
+### examples
 
 Suppose we wanted to reformat the following memes:
 
-![](/blog/_img/figs/meme-recycler/unformatted.png){:class="img-responsive"}
+![](img/figs/meme-recycler/unformatted.png){:class="img-responsive"}
 
 With these images in the ```in/``` directory, we can run the Python script.
 
@@ -79,7 +79,7 @@ cropped sample4.jpg
 cropped sample5.jpg
 ~~~
 
-![](/blog/_img/figs/meme-recycler/components.png){:class="img-responsive"}
+![](img/figs/meme-recycler/components.png){:class="img-responsive"}
 
 then runs code from ```meme-text-ocr``` to apply optical character recognition to the images of text shown above.
 
@@ -115,12 +115,12 @@ Done!
 
 The new memes are then stored in the ```out/``` directory:
 
-![](/blog/_img/figs/meme-recycler/formatted.png){:class="img-responsive"}
+![](img/figs/meme-recycler/formatted.png){:class="img-responsive"}
 
-## Authors
+### authors
 
 * Evan James Martin
 
-## Acknowledgments
+### acknowledgments
 
 Adrian Rosebrock, [Building a Pokedex in Python: Finding the Game Boy Screen (Step 4 of 6)](https://www.pyimagesearch.com/2014/04/21/building-pokedex-python-finding-game-boy-screen-step-4-6/)

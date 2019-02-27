@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Background
+title: academics
 ---
 
 [Curriculum vitae](https://evmarts.github.io/blog/assets/cv.pdf)

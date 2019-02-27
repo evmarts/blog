@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A paper on social media marketing
+title: a paper on social media marketing
 ---
 
 In the second year of my undergrad I was tasked with writing a research paper for an English course. I was just starting to get into internet marketing so I chose to write a paper on social media marketing (SMM). Below is the opening paragraph from the research proposal I wrote:

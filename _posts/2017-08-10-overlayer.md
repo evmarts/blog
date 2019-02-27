@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Overlaying Images with Motivational Quotes
+title: overlaying images with motivational quotes
 ---
 
 This project's goal is to automate the process of overlaying text onto images. Images to be overlayed with text are to be stored in the ```/in/bkg``` directory. The lines of text are to be stored in a text file ```quotes.txt```.
 
-## Motivation
+### motivation
 
 A common design for a post on social media is an image overlayed with text. These types of posts show up a lot in niches aimed at self-motivation, specifically those concerned with physical fitness. 
 
@@ -23,7 +23,7 @@ Below is a screenshot from one of my Instagram accounts geared at promoting pers
 
 <img src="./figures/sample_feed.jpg" width="512x" alt="">
 
-## Getting Started
+### getting Started
 
 Clone:
 ```git clone https://github.com/evmarts/overlayer.git```
@@ -31,20 +31,20 @@ Clone:
 Run the script:
 ```python overlayer.py```
 
-### Prerequisites
+#### prerequisites
 
 Python
 
-## Built With
+### built With
 
 * Python Imaging Library (PIL)
 * Python textwrap module
 
-## Examples
+### examples
 
 Consider the following raw images located in the ```in/bkg``` directory: 
 
-![image-title-here](/blog/_img/figs/overlayer/fig1.png){:class="img-responsive"}
+![image-title-here](img/figs/overlayer/fig1.png){:class="img-responsive"}
 
 and consider the following text file located in the ```/in``` directory:
 
@@ -56,7 +56,7 @@ Second caption.
 Third caption.
 ~~~
 
-#### Example 1 - overlaying images in order:
+#### example 1 - overlaying images in order:
 Suppose we want to overlay the first quote in the text file with the first raw image, the second quote with the second raw image and the third quote with the raw third image.
 
 To do this, we ould run the script and specify that we do not wish to generate all combinations of the raw images and lines of text. 
@@ -75,11 +75,11 @@ Output image saved as: out/_Third capt.png
 
 The following images are then stored in the ```/out``` directory:
 
-![image-title-here](/blog/_img/figs/overlayer/fig2.png){:class="img-responsive"}
+![image-title-here](img/figs/overlayer/fig2.png){:class="img-responsive"}
  
 **note**: We chose to include the trademarks in these images.   An image file, ```logo.png```, in the ```/utils``` directory specifies the logo, and the trademark text (the text below the logo) is specified in the ```overlayer.py``` script.
 
-#### Example 2 - generating all combinations of overlays:
+#### example 2 - generating all combinations of overlays:
 
 Consider the same text file and the same three images as above. Perhaps we just want to create all possible combinations of raw image and quote and then decide which ones go well together later. 
 
@@ -111,9 +111,9 @@ Output image saved as: out/2_Third capt.png
 
 The following images are then stored in the ```/out``` directory:
  
-![image-title-here](/blog/_img/figs/overlayer/fig3.png){:class="img-responsive"}
+![image-title-here](img/figs/overlayer/fig3.png){:class="img-responsive"}
 
-## Authors
+### authors
 
 * **Evan Martin**
 

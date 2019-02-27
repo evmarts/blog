@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Partitioning Twitter Memes
+title: partitioning twitter memes
 ---
 
 The goal of this project is to automate the partitioning of a Twitter-screenshot meme into text and attachment components. 
 
-## Motivation: 
+### motivation: 
 The Twitter-screenshot meme is an image file that contains a text component and an attachment component, where the text component is a string of text that describes the attachment component. Below are some examples:
 
-![](/blog/_img/figs/meme-cropper/memes.png){:class="img-responsive"}
+![](img/figs/meme-cropper/memes.png){:class="img-responsive"}
 
 I will refer to the image below the text as an "attachment" as to avoid confusion with the entire image of the meme. 
 
@@ -20,13 +20,13 @@ The boundaries of the text component and the attachment component are variable s
 
 One way to do this is to apply some computer vision and find the largest rectangular component, which is expected to be the attachment-component. Below are examples of the boundaries I was able to detect via the OpenCV computer vision library:
 
-![](/blog/_img/figs/meme-cropper/memes_attach.png){:class="img-responsive"}
+![](img/figs/meme-cropper/memes_attach.png){:class="img-responsive"}
 
 Once we know the boundaries of the attachment, we compute the boundaries of the text component as everything above the upper boundary of the attachment. 
 
-![](/blog/_img/figs/meme-cropper/memes_contoured.png){:class="img-responsive"}
+![](img/figs/meme-cropper/memes_contoured.png){:class="img-responsive"}
 
-## Getting Started
+### getting Started
 
 Install [OpenCV](https://opencv.org/). I followed [this guide](https://www.pyimagesearch.com/2016/12/19/install-opencv-3-on-macos-with-homebrew-the-easy-way/). 
 
@@ -36,21 +36,21 @@ Clone:
 Run the script:
 ```python meme-cropper.py```
 
-### Prerequisites
+#### prerequisites
 
 - Python
 
-## Built With
+### built With
 
 * OpenCV Python library
 
 * Python Imaging Library (PIL)
 
-## Examples
+### examples
 
 Suppose we have the following images stored in the ```in/``` directory:
 
-![](/blog/_img/figs/meme-cropper/inputs.png){:class="img-responsive"}
+![](img/figs/meme-cropper/inputs.png){:class="img-responsive"}
 
 We will run the Python script
 
@@ -67,21 +67,21 @@ Image component saved as: out/pic/sample7pic.jpg
 
 The text components of the images are stored in the ```out/text/``` directory: 
 
-![](/blog/_img/figs/meme-cropper/textoutput.png){:class="img-responsive"}
+![](img/figs/meme-cropper/textoutput.png){:class="img-responsive"}
 
 and the attachment components are stored in the ```out/pics``` directory:
 
-![](/blog/_img/figs/meme-cropper/picoutput.png){:class="img-responsive"}
+![](img/figs/meme-cropper/picoutput.png){:class="img-responsive"}
 
-## Notes
+### notes
 
 When I ran this program against a batch on images, it was able to correctly crop 402  of the 500 images in 48 seconds. Although it misses some partitions, it saves me an enormous amount of time. 
 
-## Authors
+### authors
 
 Evan Martin
 
-## Acknowledgments
+### acknowledgments
 
 Adrian Rosebrock, [Building a Pokedex in Python: Finding the Game Boy Screen (Step 4 of 6)](https://www.pyimagesearch.com/2014/04/21/building-pokedex-python-finding-game-boy-screen-step-4-6/)
 
