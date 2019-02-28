@@ -30,3 +30,6 @@ The following is an example of a contest held on one of my Instagram accounts:
 
 ![](img/figs/leaderboard/leaderboard.png){:class="img-responsive" align = "center"}
 
+### authors
+
+* Evan James Martin

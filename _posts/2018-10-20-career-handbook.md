@@ -25,3 +25,6 @@ The architecture of the system consists of three main entities:
 3. **PostgreSQL database** stores the NOC database (database provided by the National Occupational Classification)
 
 ![](img/figs/career-handbook/arch.png){:class="img-responsive" align = "center"}
+### authors
+
+* Evan James Martin
