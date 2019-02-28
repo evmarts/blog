@@ -9,6 +9,41 @@ The following are some undergraduate level courses I have completed and the topi
 
 ## Statistics Background
 
+### Statistical Learning
+
+- Linear Regression
+- Goodness of Fit vs Prediction error
+- Cross Validation
+- Effects of correlated predictors 
+- Feature selection
+- AIC
+- Ridge regression
+- LASSO
+- Elastic Net
+- Elastic Net
+- Smoothers (Local regression, Splines)
+- Curse of dimensionality
+- Regression Trees
+- Bagging
+- Classification
+- LDA, LQA, 
+- Logistic Regression
+- Classification Trees
+- Ensembles
+- Bagging
+- Random Forests
+- Boosting
+- Neural Networks
+- Unsupervised learning
+- K-means
+- model-based clustering
+- Hierarchical clustering
+- Principal Components
+- Multidimensional Scaling
+
+Course: STAT 406, UBC
+Programming Language: R
+
 ### Sample Surveys
 - Planning and practice of sample surveys 
 - Unequal probability sampling
@@ -173,6 +208,38 @@ Textbook: Ascher, Greif. A First Course in Numerical Methods
 Programming Language: MATLAB
 
 ## Computer Science Background
+
+### Computer Vision
+
+- Processing and interpretation of images
+- Image sensing
+- Sampling
+- Filtering
+- Algorithms for colour analysis
+- Texture description
+- Stereo imaging
+- Motion interpretation
+- 3D shape recovery and recognition
+
+Course: CPSC 425, UBC
+Programming Language: Python
+
+### Advanced Relation Databases
+
+- Physical database design
+- Indexing
+- Relational query processing and optimization
+- transaction processing
+- Concurrency control
+- Crash recovery
+- Data warehouses
+- Data cubes
+- Views
+
+Course: CPSC 404, UBC
+Textbook: Ramakrishnan, Gehrke. Database Management Systems  
+Programming Language: SQL
+
 
 ### Intermediate Algorithm Design and Analysis
 - Asymptotic analysis
