@@ -3,6 +3,7 @@ layout: post
 title: overlaying images with motivational quotes
 topics: [Python, PIL, social media]
 description: In this project we automate of the process of overlaying motivational quotes onto images. The goal of this project is to be able to automate the process of creating content for a fitness page on Instagram. 
+preview: img/figs/overlayer/fig2.png
 ---
 
 This project's goal is to automate the process of overlaying text onto images. Images to be overlayed with text are to be stored in the ```/in/bkg``` directory. The lines of text are to be stored in a text file ```quotes.txt```.

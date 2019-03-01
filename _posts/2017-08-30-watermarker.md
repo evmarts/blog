@@ -3,6 +3,7 @@ layout: post
 title: batch watermarking images
 topics: ['Python', 'PIL', 'automation', 'social media']
 description: In this project we automate the process of adding watermarks onto images.
+preview: img/figs/watermarker/example.png
 ---
 
 The goal of this project is to automate the process of adding a simple watermark to an image.

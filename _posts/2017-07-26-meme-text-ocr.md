@@ -3,6 +3,7 @@ layout: post
 title: recognizing text from memes
 topics: [Python, PIL, OCR]
 description: In this project we apply tesseract-ocr to an image of text. The goal of this project is to create a component that can pipeline a resulting string to another application.
+preview: img/figs/meme-text-ocr/sample/meme9_contours.jpg
 ---
 
 The goal of this project is to recognize a string of text in an image of text. 
