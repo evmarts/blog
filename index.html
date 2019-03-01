@@ -9,12 +9,8 @@ layout: default
 	  <li class="post">
 	  	<h3><a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{{ post.title }}</a></h3>
 			<time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time>
-
-			<img src={{post.preview}}>
-
 			<p>{{ post.description | strip_html | truncatewords:50 }}</p>
-
-			<span>
+			<img src={{post.preview}}>
 			<div class="md-chips">
 					{% for topic in post.topics %}
 					<div class="md-chip">
@@ -22,7 +18,6 @@ layout: default
 					</div>
 					{% endfor %}
 				</div>
-			</span>
 		</li>
 
     {% endfor %}
