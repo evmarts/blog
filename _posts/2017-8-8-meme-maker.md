@@ -1,6 +1,8 @@
 ---
 layout: post
 title: automated twitter memes
+topics: [Python, PIL, social media]
+description: In this project we automate the process of creating a Twitter-screenshot meme. The goal of this project is to create an interface that we can use to automate the process of making memes given a collection of (string, image) tuples.
 ---
 
 The goal of this project is to automate the process of creating the basic Twitter-screenshot style meme.

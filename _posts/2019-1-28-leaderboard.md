@@ -1,6 +1,8 @@
 ---
 layout: post
-title: a way to increase user engagement on instagram accounts
+title: creating a web app that helps increase user engagement on Instagram accounts
+topics: [node.js, express.js, react.js, PostgreSQL, Heroku, Surge.sh]
+description: In this project we set up a web application that communicates with Instagram to host a leaderboard that ranks participants based on their level of engagement with a particular Instagram account. 
 ---
 
 The goal of this project is to host a leaderboard to facilitate a contest on an Instagram account. The leaderboard will rank contestants based on how much they engage with the account. 

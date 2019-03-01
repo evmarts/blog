@@ -1,6 +1,8 @@
 ---
 layout: post
 title: recycling memes in bulk
+topics: [Python, OpenCV,PIL, computer vision, social media, automation]
+description: In this project we use two computer vision techniques, edge detection and optical character recognition, to break apart a Twitter-screenshot meme and recycle the contents into a reformatted meme.
 ---
 
 The goal of this project is to take an image of meme and output a reformatted image of the meme. 

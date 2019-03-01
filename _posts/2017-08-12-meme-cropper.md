@@ -1,6 +1,8 @@
 ---
 layout: post
 title: partitioning twitter memes
+topics: [Python, OpenCV,PIL, computer vision, social media]
+description: In this project we partition a Twitter-screenshot meme into textual and image components. The goal of this project is to create a component that can be used in an automated system to analyze or make use of the raw elements of a Twitter-screenshot meme. 
 ---
 
 The goal of this project is to automate the partitioning of a Twitter-screenshot meme into text and attachment components. 

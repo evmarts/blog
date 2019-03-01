@@ -1,6 +1,8 @@
 ---
 layout: post
-title: creating my first distributed system in production
+title: creating my first web app with node.js and react.js
+topics: [node.js, express.js, react.js, PostgreSQL, Heroku, Surge.sh]
+description: In this project we create a web application that allows the user to search the The National Occupational Classification (NOC) database. 
 ---
 
 The goal of this project is to host a user interface that allows the user to search the The National Occupational Classification (NOC) database. The database contains over 30,000 occupational titles, grouped into 500 Unit Groups, and organized according to skill level and type. The 2016 Career Handbook further defines these occupational titles by assigning work characteristics and descriptor scale ratings to the NOC occupational titles.
