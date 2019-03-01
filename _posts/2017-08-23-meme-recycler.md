@@ -9,11 +9,11 @@ The goal of this project is to take an image of meme and output a reformatted im
 
 This project combines the functionality of three other projects of mine: 
 
-1. [Recognizing Text from Memes](https://evmarts.github.io/blog/meme-text-ocr/)
+1. [Recognizing Text from Memes](https://evmarts.github.io/blog//meme-text-ocr)
 
-2. [Partitioning Twitter Memes](https://evmarts.github.io/blog/meme-cropper/)
+2. [Partitioning Twitter Memes](https://evmarts.github.io/blog//meme-cropper)
 
-3. [Automated Twitter Memes](https://evmarts.github.io/blog/meme-maker/)
+3. [Automated Twitter Memes](https://evmarts.github.io/blog//meme-maker)
 
 ### motivation:
 
