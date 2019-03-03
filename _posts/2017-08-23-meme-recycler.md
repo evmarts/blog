@@ -3,6 +3,7 @@ layout: post
 title: recycling memes in bulk
 topics: [Python, OpenCV,PIL, computer vision, social media, automation]
 description: In this project we use two computer vision techniques, edge detection and optical character recognition, to break apart a Twitter-screenshot meme and recycle the contents into a reformatted meme.
+preview: img/figs/meme-recycler/diagram.png
 ---
 
 The goal of this project is to take an image of meme and output a reformatted image of the meme. 
@@ -118,6 +119,10 @@ Done!
 The new memes are then stored in the ```out/``` directory:
 
 ![](img/figs/meme-recycler/formatted.png){:class="img-responsive"}
+
+This diagram descibes the different scripts we used:
+
+![](img/figs/meme-recycler/diagram.png){:class="img-responsive"}
 
 ### authors
 
