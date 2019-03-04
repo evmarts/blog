@@ -6,11 +6,9 @@ description: This project applies a texture synthesis method to fill in a region
 preview: img/figs/texture-synth/demo.png
 ---
 
-# removing friends from images using texture synthesis
-
 This project applies a texture synthesis method to fill in a region of an image with a texture. This method can be used to remove unwanted objects in an image, like friends. 
 
-## motivation
+### motivation
 
 Suppose we take a picture of a scene but the scene includes some object that we don't want included. For example, perhaps we want to remove a hot air balloon from the image below:
 
@@ -20,7 +18,7 @@ We can apply the method implemented in this project to remove it:
 
 ![](img/figs/texture-synth/balloon_results.jpg){:class="img-responsive" align = "center"}
 
-## getting started
+### getting started
 
 clone the repo `git@github.com:evmarts/texture-synth.git`
 
@@ -30,7 +28,7 @@ once you have selected both regions, run `python Holefill.py`
 
 *note:* this method can have very long run-times for large images. 
 
-## examples
+### examples
 
 run `python polyselect.py`:   
 
@@ -69,7 +67,7 @@ path of image to modify (wrapped in ""):
 
 Two windows will open: one for the original image, and another window to show the two regions you have selected. 
 
-![](img/figs/texture-synth/balloon_regions.jpg){:class="img-responsive" align = "center"}
+![](img/figs/texture-synth/balloon_regions.png){:class="img-responsive" align = "center"}
 
 ~~~
 Are you happy with this choice of fillRegion and textureIm?
@@ -107,7 +105,7 @@ Another example, this one required two runs: one to remove my friend and another
 ![](img/figs/texture-synth/remove_kieran_results.jpg){:class="img-responsive" align = "center"}
 ![](img/figs/texture-synth/remove_shadow_results.jpg){:class="img-responsive" align = "center"}
 
-## extras
+### extras
 
 Visit https://una-dinosauria.github.io/efros-and-leung-js/ for a cool demo!
 
