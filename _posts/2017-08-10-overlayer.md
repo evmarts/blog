@@ -116,7 +116,7 @@ The following images are then stored in the ```/out``` directory:
  
 ![image-title-here](img/figs/overlayer/fig3.png){:class="img-responsive"}
 
+
 ### authors
 
-* **Evan Martin**
-
+* Evan James Martin

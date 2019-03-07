@@ -65,6 +65,7 @@ The script then outputs the following:
 Text recognized as: 'When you call shotgun but end up in the back'
 ~~~
 
+
 ### authors
 
-Evan Martin
+* Evan James Martin

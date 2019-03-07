@@ -42,7 +42,7 @@ tree.pr.acc
 
 which ends up being **0.7249626**. Meh.
 
-## bagging decision trees
+### bagging decision trees
 
 Have a look at this fine specimen:
 
@@ -102,7 +102,7 @@ bagg.pr.acc <- 1- sum(as.numeric(as.numeric(prs.bagg) - as.numeric(x.test$V1) !=
 which comes out (for this particular run) to be **0.8844046**. Better!
 
 
-## random forests
+### random forests
 
 Random Forests are an extension of bagging. It takes one extra step where in addition to taking bootstrap samples, it also takes a random selection of *features* rather than using all features to grow trees.
 
@@ -125,7 +125,7 @@ rf.pr.acc <- 1-sum(as.numeric(as.numeric(levels(rf.pr))[rf.pr] - as.numeric(x.te
 
 The prediction accuracy (for this particular run) turns out to be **0.9407075**. Nice one, Random Forests!
 
-## authors
+### authors
 
 Evan James Martin
 

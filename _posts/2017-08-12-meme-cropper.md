@@ -80,9 +80,10 @@ and the attachment components are stored in the ```out/pics``` directory:
 
 When I ran this program against a batch on images, it was able to correctly crop 402  of the 500 images in 48 seconds. Although it misses some partitions, it saves me an enormous amount of time. 
 
+
 ### authors
 
-Evan Martin
+* Evan James Martin
 
 ### acknowledgments
 

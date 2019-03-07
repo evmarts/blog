@@ -110,3 +110,7 @@ Another example, this one required two runs: one to remove my friend and another
 Visit https://una-dinosauria.github.io/efros-and-leung-js/ for a cool demo!
 
 Check out the paper that this method is taken from [here:](https://github.com/evmarts/texture-synth/blob/master/efrosLeung99.pdf)
+
+### authors
+
+* Evan James Martin

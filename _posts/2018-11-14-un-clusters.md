@@ -130,3 +130,7 @@ mapCountryData(malMap, nameColumnToPlot = "cluster", catMethod = "categorical",
 ```
 
 ![](img/figs/un-clusters/un.pam.map-1.png)
+
+### authors
+
+* Evan James Martin

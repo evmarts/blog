@@ -63,6 +63,7 @@ and the image *meme.jpg* will be stored in the ```out/``` directory:
 
 ![](img/figs/meme-maker/meme.png){:class="img-responsive" height="300px" width="300px" align = "middle"}
 
+
 ### authors
 
-* Evan Martin
+* Evan James Martin
