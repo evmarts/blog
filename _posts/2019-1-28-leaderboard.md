@@ -1,6 +1,6 @@
 ---
 layout: post
-title: creating a web app that helps increase user engagement on Instagram accounts
+title: creating a web app to increase user engagement
 topics: [node.js, express.js, react.js, PostgreSQL, Heroku, Surge.sh]
 description: In this project we set up a web application that communicates with Instagram to host a leaderboard that ranks participants based on their level of engagement with a particular Instagram account. 
 preview: img/figs/leaderboard/leaderboard-arch.png
